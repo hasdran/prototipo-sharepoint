@@ -7396,8 +7396,8 @@ button.bg-dark:focus {
 } */
 
 .fixed-top, .sb-nav-fixed  #layoutSidenav #layoutSidenav_nav {
-  position: fixed;
-  /* top: 0; */
+  /* position: fixed; */
+  top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -10133,7 +10133,7 @@ body {
   overflow-y: auto;
 }
 .sb-nav-fixed #layoutSidenav #layoutSidenav_content {
-  padding-left: 225px;
+  padding-left: 25px; /*valor alterado 225*/
   top: 56px;
 }
 
