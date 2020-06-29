@@ -1,0 +1,25 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons';
+  src: url('../fonts/fabric-icons-d726ecaa.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  font-size: 20px;
+}
+
+.ms-Icon--Waffle:before { content: "\ED89"; }
+.ms-Icon--Ringer:before { content: "\EA8F"; }
+.ms-Icon--WaffleOffice365:before { content: "\F4E0"; }
+.ms-Icon--Settings:before { content: "\E713"; }
+.ms-Icon--FavoriteStar:before { content: "\E734"; }
+.ms-Icon--Help:before { content: "\E897"; }
